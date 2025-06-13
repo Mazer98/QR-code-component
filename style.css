@@ -2,3 +2,42 @@
     margin: 0;
     padding: 0;
 }
+
+
+body  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:hsl(212, 45%, 89%) ;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+    margin-right:20px;
+    
+}
+
+
+h2 {
+    color: hsl(218, 44%, 22%);
+    font-weight: bolder;
+
+}
+
+
+p {
+    color: hsl(216, 15%, 48%);
+}
+
+
+
+
